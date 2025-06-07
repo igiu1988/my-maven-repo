@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'packages/**'
+  workflow_dispatch:
 jobs:
   publish:
     runs-on: ubuntu-latest
